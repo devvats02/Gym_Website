@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    width: 100vw;
+    height: 12vh;
+    position: fixed;
+}
+.first{
+    width: 370px;
+    height: 85px;
+    background-color: black;
+    margin-top: 2px;
+    margin-left: 85px;
+    position: fixed;
+}
+.second{
+    width: 55vw;
+    height: 10vh;
+    margin-left: 500px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(234, 234, 54);
+}
+#navcontent{
+    display: flex;
+    list-style: none;
+}
+.second ul li{
+    margin-top: 42px;
+    margin-left: 51px;
+    font-size: 20px;
+}
+.second ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.second ul li a:hover{
+    background-color: black;
+    color: yellow;
+    transition: 0.70s;
+    padding-top: 50px;
+    padding-bottom: 15px;
+} 
+.third{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+    background-image: url("Images/gym main img.jpg");
+    background-position: center;
+}
+#one{
+    background-image: url("Images/banner1.png");
+    width: 945px;
+    height: 140px;
+    position: scroll;
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 17%;
+}
+.head1{
+    color: white;
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.head2{
+    color: white;
+    margin-top: 12px;
+    font-weight: 250;
+    font-size: 60px;
+    text-shadow: 2px 3px yellow;
+}
+.fourth{
+    width: 100vw;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+#tWo{
+    width: 206px;
+    height: 51px;
+    margin-left: 71%;
+    margin-top: 30px;
+}
+.btn{
+    display: inline-block;
+    width: 206px;
+    height: 51px;
+    background-color: rgb(234, 234, 54);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: scroll;
+    transition: 0.5s;
+  }
+  .btn span:after {
+    content: '\00bb';
+    position: scroll;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+#three{
+    width: 70vw;
+    height: 45px;
+    margin-top: 50px;
+    margin-left: 259px;
+}
+#four{
+    width: 20vw;
+    height: 38px;
+    margin-left: 560px;
+    margin-top: 33px; 
+}
+#five{
+    width: 82vw;
+    height: 20vh;
+    margin-top: 18px;
+    margin-left: 140px;
+}
+#para1{
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    margin-left: 60px;
+    color: white;
+}
+#para2{
+    padding: 10px;
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.container1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+#six{
+    width: 55vw;
+    height: 100vh;
+}
+#seven{
+    width: 45vw;
+    height: 100vh;
+    background-color:rgb(234, 234, 54);
+}
+.fifth{
+    width: 55vw;
+    height: 15vh;
+    background-color: rgb(234, 234, 54);
+}
+#head3{
+    padding-top: 57px;
+    padding-left: 120px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sixth{
+    width: 55vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(234, 234, 54);
+}
+#eight{
+    margin-left: 120px;
+    margin-top: 50px;
+    width: 4vw;
+    height: 70vh;
+    background-color:rgb(234, 234, 54);
+}
+#nine{
+    margin-left: 12px;
+    margin-top: 50px;
+    width: 40vw;
+    height: 70vh;
+    background-color:rgb(234, 234, 54);
+}
+#ten{
+    display: flex;
+    margin-top: 7px;
+    width:4vw ;
+    height:8vh;
+    background-color: black;
+    border-radius: 121px;
+}
+#eleven{
+    display: flex;
+    margin-top: 40px;
+    width:4vw ;
+    height:8vh;
+    background-color: black;
+    border-radius: 121px;
+}
+#tWelve{
+    display: flex;
+    border-radius: 121px;
+    margin-top: 42px;
+    width:4vw ;
+    height:8vh;
+    background-color: black;
+}
+#thirteen{
+    display: flex;
+    border-radius: 121px;
+    margin-top: 58px;
+    width:4vw ;
+    height:8vh;
+    background-color: black;
+}
+#fourteen{
+    margin-top: 7px;
+    width:40vw;
+    height: 12vh;
+    background-color:rgb(234, 234, 54);
+}
+#fifteen{
+    margin-top: 10px;
+    width:40vw;
+    height: 12vh;
+    background-color:rgb(234, 234, 54);
+}
+#sixteen{
+    margin-top: 12px;
+    width: 40vw;
+    height: 15vh;
+    background-color:rgb(234, 234, 54);
+}
+#seventeen{
+    width: 40vw;
+    height: 12vh;
+    background-color: rgb(234, 234, 54);
+}
+.digit1{
+    color: yellow;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+.points{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.container2{
+    width: 100vw;
+    height: 50 vh;
+    background-color: violet;
+    display: flex;
+}
+.seventh{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("Images/banner2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: indianred;
+}
+.eighteenth{
+    background-image: url("Images/banner3.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 50vw;
+    height: 50vh;
+    background-color: antiquewhite;
+}
+.cl1{
+    margin-top: 75px;
+    margin-left: 165px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    width: 320px;
+    height: 38px;
+}
+.cl2{
+    margin-top: 15px;
+    margin-left: 150px;
+    font-family: 'Teko', sans-serif;
+    color: white;
+    width: 400px;
+    height: 45px;
+}
+.cl1 span{
+    margin-left: 65px;
+    font-size: 20px;
+}
+.cl2 span{
+    font-size: 34px;
+    margin-left: 10px;
+}
+.cl3{
+    margin-top: 50px;
+    margin-left: 250px;
+    width: 200px;
+    height: 55px;
+}
+.btn1{
+    width:200px;
+    height: 55px;
+    background-color: rgb(234, 234, 54);
+    border-radius: 15px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+}
+.btn1:hover{
+    cursor: pointer;
+    font-size:23px;
+    background-color: grey;
+    transition: 0.5s;
+    border-style: dashed;
+}
+.container3{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    background-color: grey;
+}
+.cl8{
+    background-image: url("Images/outergym.jpeg");
+    background-size: cover;
+    margin-top: 40px;
+    margin-left: 93px;
+    width: 30vw;
+    height: 40vh;
+    background-color: antiquewhite;
+}
+.cl9{
+    background-image: url("Images/insidegym.jpeg");
+    background-size: cover;
+    margin-left: 93px;
+    margin-top: 75px;
+    width: 30vw;
+    height: 40vh;
+    background-color: aqua;
+}
+.cl4{
+    background-color: black;
+    width: 32vw;
+    height: 50vh;
+}
+.cl5{
+    width: 18vw;
+    height: 50vh;
+    background-color: black;
+}
+.cl6{
+    width: 18vw;
+    height: 50vh;
+    background-color: black;
+}
+.cl7{
+    width: 32vW;
+    height: 50vh;
+    background-color: black;
+}
+.cl10{
+    margin-top: 30px;
+    margin-left: 190px;
+    width: 300px;
+    height: 29px;
+}
+.cl11{
+    display: flex;
+    margin-left: 185px;
+    margin-top: 20px;
+    width: 19vw;
+    height: 40vh;
+}
+.cl10 span{
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: fantasy;
+    color: white;
+}
+.cl11 span{
+    color: grey;
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: fantasy;
+}
+.cl12{
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+}
+.cl12 span{
+    font-size:18px;
+    margin-left: 12px;
+    color: white;
+    font-family: fantasy;
+}
+.cl13{
+    width: 250px;
+    height: 300px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.list1{
+    font-size: 16px;
+    margin-left: 16px;
+    padding-top: 15px;
+    font-family: fantasy;
+    color: grey;
+}
+.list1 a{
+    color: grey;
+    text-decoration: none;
+}
+.hr1{
+    color: grey;
+    margin-top: 12px;
+}
+.list1 span:hover{
+    color: yellow;
+}
+.cl14{
+    width: 150px;
+    height: 27px;
+    margin-top: 24px;
+    margin-left: 12px;
+}
+.cl14 span{
+    font-size: 18px;
+    font-family: fantasy;
+    color: white;
+}
+.cl15{
+    width: 270px;
+    height: 300px;
+    margin-top: 12px;
+}
+.list2{
+    color: grey;
+    margin-left: 16px;
+    padding-top: 18px;
+    font-family: fantasy;
+    font-size: 16px;
+}
+.hr2{
+    color: grey;
+    margin-top: 12px;
+}
+.cl16{
+    width: 200px;
+    height: 35px;
+    margin-top: 19px;
+    margin-left: 12px;
+    font-size: 18px;
+    color: white;
+    font-family: fantasy;
+}
+.cl17{
+    width: 200px;
+    height: 35px;
+    color: white;
+    font-size: 18px;
+    font-family: fantasy;
+    margin-left: 12px;
+    margin-top: 23px;
+}
+.cl18{
+    width: 300px;
+    height: 57px;
+    font-size: 16px;
+    font-family: fantasy;
+    margin-left: 12px;
+    color: grey;
+}
+.hr3{
+    width:300px;
+    color: grey;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.cl19{
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    font-family: fantasy;
+    color: white;
+    margin-left: 12px;
+    margin-top: 17px;
+}
+.cl20{
+    width: 150px;
+    height: 35px;
+    color: grey;
+    font-size: 16px;
+    font-family: fantasy;
+    margin-left: 12px;
+}
+.cl21{
+    width: 150px;
+    height: 35px;
+    color: white;
+    font-size: 18px;
+    font-family: fantasy;
+    margin-top: 17px;
+    margin-left: 12px;
+}
+.cl22{
+    font-size: 16px;
+    font-family: fantasy;
+    color: grey;
+    margin-left: 12px;
+}
+.cl23{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+}
+#id1{
+    width: 300px;
+    height: 10vh;
+    margin-left: 637px;
+}
+.btn2{
+    width: 50px;
+    height: 50px;
+    margin-left: 9px;
+    margin-top: 14px;
+}
+.cl24{
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    background-color: black;
+}
+.cl24 span{
+    margin-top: 12px;
+    margin-left: 560px;
+    color: grey;
+    font-size: 18px;
+    font-family: fantasy;
+}

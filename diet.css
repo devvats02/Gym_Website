@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    width: 100vw;
+    height: 12vh;
+    position: fixed;
+}
+.first{
+    width: 370px;
+    height: 85px;
+    background-color: black;
+    margin-top: 2px;
+    margin-left: 85px;
+    position: fixed;
+}
+.second{
+    width: 55vw;
+    height: 10vh;
+    margin-left: 500px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(234, 234, 54);
+}
+#navcontent{
+    display: flex;
+    list-style: none;
+}
+.second ul li{
+    margin-top: 42px;
+    margin-left: 51px;
+    font-size: 20px;
+}
+.second ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.second ul li a:hover{
+    background-color: black;
+    color: yellow;
+    transition: 0.70s;
+    padding-top: 50px;
+    padding-bottom: 15px;
+} 
+.v1{
+    width: 100vw;
+    height: 7vh;
+    padding-top: 110px;
+    font-family: sans-serif;
+    background-color: black;
+}
+.p1{
+   font-size: 35px;
+   color: yellow;
+   padding-left: 630px;
+}
+.v2{
+    width: 100vw;
+    height: 140vh;
+    display: flex;
+    background-color: black;
+}
+.v3{
+    width: 40vw;
+    height: 135vh;
+    margin-left: 40px;
+    margin-top: 34px;
+    border-radius: 20px;
+    background-color: rgb(234, 234, 54);
+}
+.v4{
+    width: 40vw;
+    height: 135vh;
+    margin-left: 200px;
+    margin-top: 34px;
+    border-radius: 20px;
+    background-color: rgb(234, 234, 54); 
+}
+.p2{
+    font-size: 26px;
+    padding-top: 12px;
+    padding-left: 19px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.p3{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    padding-top: 12px;
+    padding-left: 23px;
+}
+.p4{
+    font-size: 18px;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.v5{
+    width: 100vw;
+    height: 102vh;
+    display: flex;
+    background-color: black;
+}
+.v6{
+    width: 40vw;
+    height: 95vh;
+    margin-left: 40px;
+    margin-top: 34px;
+    border-radius: 20px;
+    background-color: rgb(234, 234, 54);
+}
+.v7{
+    width: 40vw;
+    height: 95vh;
+    margin-left: 200px;
+    margin-top: 34px;
+    border-radius: 20px;
+    background-color: rgb(234, 234, 54); 
+}
+.p5{
+    font-size: 26px;
+    padding-top: 12px;
+    padding-left: 150px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.container3{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    background-color: grey;
+}
+.cl8{
+    background-image: url("Images/outergym.jpeg");
+    background-size: cover;
+    margin-top: 40px;
+    margin-left: 93px;
+    width: 30vw;
+    height: 40vh;
+    background-color: antiquewhite;
+}
+.cl9{
+    background-image: url("Images/insidegym.jpeg");
+    background-size: cover;
+    margin-left: 93px;
+    margin-top: 75px;
+    width: 30vw;
+    height: 40vh;
+    background-color: aqua;
+}
+.cl4{
+    background-color: black;
+    width: 32vw;
+    height: 50vh;
+}
+.cl5{
+    width: 18vw;
+    height: 50vh;
+    background-color: black;
+}
+.cl6{
+    width: 18vw;
+    height: 50vh;
+    background-color: black;
+}
+.cl7{
+    width: 32vW;
+    height: 50vh;
+    background-color: black;
+}
+.cl10{
+    margin-top: 30px;
+    margin-left: 190px;
+    width: 300px;
+    height: 29px;
+}
+.cl11{
+    display: flex;
+    margin-left: 185px;
+    margin-top: 20px;
+    width: 19vw;
+    height: 40vh;
+}
+.cl10 span{
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: fantasy;
+    color: white;
+}
+.cl11 span{
+    color: grey;
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: fantasy;
+}
+.cl12{
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+}
+.cl12 span{
+    font-size:18px;
+    margin-left: 12px;
+    color: white;
+    font-family: fantasy;
+}
+.cl13{
+    width: 250px;
+    height: 300px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.list1{
+    font-size: 16px;
+    margin-left: 16px;
+    padding-top: 15px;
+    font-family: fantasy;
+    color: grey;
+}
+.list1 a{
+    color: grey;
+    text-decoration: none;
+}
+.hr1{
+    color: grey;
+    margin-top: 12px;
+}
+.list1 span:hover{
+    color: yellow;
+}
+.cl14{
+    width: 150px;
+    height: 27px;
+    margin-top: 24px;
+    margin-left: 12px;
+}
+.cl14 span{
+    font-size: 18px;
+    font-family: fantasy;
+    color: white;
+}
+.cl15{
+    width: 270px;
+    height: 300px;
+    margin-top: 12px;
+}
+.list2{
+    color: grey;
+    margin-left: 16px;
+    padding-top: 18px;
+    font-family: fantasy;
+    font-size: 16px;
+}
+.hr2{
+    color: grey;
+    margin-top: 12px;
+}
+.cl16{
+    width: 200px;
+    height: 35px;
+    margin-top: 19px;
+    margin-left: 12px;
+    font-size: 18px;
+    color: white;
+    font-family: fantasy;
+}
+.cl17{
+    width: 200px;
+    height: 35px;
+    color: white;
+    font-size: 18px;
+    font-family: fantasy;
+    margin-left: 12px;
+    margin-top: 23px;
+}
+.cl18{
+    width: 300px;
+    height: 57px;
+    font-size: 16px;
+    font-family: fantasy;
+    margin-left: 12px;
+    color: grey;
+}
+.hr3{
+    width:300px;
+    color: grey;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.cl19{
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    font-family: fantasy;
+    color: white;
+    margin-left: 12px;
+    margin-top: 17px;
+}
+.cl20{
+    width: 150px;
+    height: 35px;
+    color: grey;
+    font-size: 16px;
+    font-family: fantasy;
+    margin-left: 12px;
+}
+.cl21{
+    width: 150px;
+    height: 35px;
+    color: white;
+    font-size: 18px;
+    font-family: fantasy;
+    margin-top: 17px;
+    margin-left: 12px;
+}
+.cl22{
+    font-size: 16px;
+    font-family: fantasy;
+    color: grey;
+    margin-left: 12px;
+}
+.cl23{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+}
+#id1{
+    width: 300px;
+    height: 10vh;
+    margin-left: 637px;
+}
+.btn2{
+    width: 50px;
+    height: 50px;
+    margin-left: 9px;
+    margin-top: 14px;
+}
+.cl24{
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    background-color: black;
+}
+.cl24 span{
+    margin-top: 12px;
+    margin-left: 560px;
+    color: grey;
+    font-size: 18px;
+    font-family: fantasy;
+}

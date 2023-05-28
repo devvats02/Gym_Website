@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    width: 100vw;
+    height: 12vh;
+    position: fixed;
+}
+.first{
+    width: 370px;
+    height: 85px;
+    background-color: black;
+    margin-top: 2px;
+    margin-left: 85px;
+    position: fixed;
+}
+.second{
+    width: 55vw;
+    height: 10vh;
+    margin-left: 500px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(234, 234, 54);
+}
+#navcontent{
+    display: flex;
+    list-style: none;
+}
+.second ul li{
+    margin-top: 42px;
+    margin-left: 51px;
+    font-size: 20px;
+}
+.second ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.second ul li a:hover{
+    background-color: black;
+    color: yellow;
+    transition: 0.70s;
+    padding-top: 50px;
+    padding-bottom: 15px;
+} 
+.a{
+    width: 100vw;
+    height: 90vh;
+    background-image: url("Images/banner7.jpeg");
+    background-size: cover;
+}
+.b{
+    width: 100vw;
+    height: 33vh;
+    background-color: black;
+}
+.c{
+    width: 100vw;
+    height: 55vh;
+    background-color: rgb(234, 234, 54);
+    display: flex;
+}
+.d{
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 330px;
+    box-shadow: 15px 20px;
+}
+.e{
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 150px;
+    box-shadow: 15px 20px;
+}
+.f{
+    width: 100vw;
+    height: 35vh;
+    background-color:rgb(234, 234, 54);
+}
+.para1 span{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 200px;
+    margin-top: 100px;
+    color: black;
+}
+.para2{
+     font-family: fantasy;
+     font-size: 21px;
+     margin-left: 300px;
+     margin-top: 50px;
+}
+.para3{
+    color: white;
+    font-size: 21px;
+    font-family: fantasy;
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 1.3;
+    word-spacing: 1.5px;
+    padding-top: 30px;
+}
+.container3{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    background-color: grey;
+}  
+.cl4{
+    background-color: black;
+    width: 32vw;
+    height: 50vh;
+}
+.cl5{
+    width: 18vw;
+    height: 50vh;
+    background-color: black;
+}
+.cl6{
+    width: 18vw;
+    height: 50vh;
+    background-color: black;
+}
+.cl7{
+    width: 32vW;
+    height: 50vh;
+    background-color: black;
+}
+.cl10{
+    margin-top: 30px;
+    margin-left: 190px;
+    width: 300px;
+    height: 29px;
+}
+.cl11{
+    display: flex;
+    margin-left: 185px;
+    margin-top: 20px;
+    width: 19vw;
+    height: 40vh;
+}
+.cl10 span{
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: fantasy;
+    color: white;
+}
+.cl11 span{
+    color: grey;
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: fantasy;
+}
+.cl12{
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+}
+.cl12 span{
+    font-size:18px;
+    margin-left: 12px;
+    color: white;
+    font-family: fantasy;
+}
+.cl13{
+    width: 250px;
+    height: 300px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.list1{
+    font-size: 16px;
+    margin-left: 16px;
+    padding-top: 15px;
+    font-family: fantasy;
+    color: grey;
+}
+.list1 a{
+    color: grey;
+    text-decoration: none;
+}
+.hr1{
+    color: grey;
+    margin-top: 12px;
+}
+.list1 span:hover{
+    color: yellow;
+}
+.cl14{
+    width: 150px;
+    height: 27px;
+    margin-top: 24px;
+    margin-left: 12px;
+}
+.cl14 span{
+    font-size: 18px;
+    font-family: fantasy;
+    color: white;
+}
+.cl15{
+    width: 270px;
+    height: 300px;
+    margin-top: 12px;
+}
+.list2{
+    color: grey;
+    margin-left: 16px;
+    padding-top: 18px;
+    font-family: fantasy;
+    font-size: 16px;
+}
+.hr2{
+    color: grey;
+    margin-top: 12px;
+}
+.cl16{
+    width: 200px;
+    height: 35px;
+    margin-top: 19px;
+    margin-left: 12px;
+    font-size: 18px;
+    color: white;
+    font-family: fantasy;
+}
+.cl17{
+    width: 200px;
+    height: 35px;
+    color: white;
+    font-size: 18px;
+    font-family: fantasy;
+    margin-left: 12px;
+    margin-top: 23px;
+}
+.cl18{
+    width: 300px;
+    height: 57px;
+    font-size: 16px;
+    font-family: fantasy;
+    margin-left: 12px;
+    color: grey;
+}
+.hr3{
+    width:300px;
+    color: grey;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.cl19{
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    font-family: fantasy;
+    color: white;
+    margin-left: 12px;
+    margin-top: 17px;
+}
+.cl20{
+    width: 150px;
+    height: 35px;
+    color: grey;
+    font-size: 16px;
+    font-family: fantasy;
+    margin-left: 12px;
+}
+.cl21{
+    width: 150px;
+    height: 35px;
+    color: white;
+    font-size: 18px;
+    font-family: fantasy;
+    margin-top: 17px;
+    margin-left: 12px;
+}
+.cl22{
+    font-size: 16px;
+    font-family: fantasy;
+    color: grey;
+    margin-left: 12px;
+}
+.cl23{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+}
+#id1{
+    width: 300px;
+    height: 10vh;
+    margin-left: 637px;
+}
+.btn2{
+    width: 50px;
+    height: 50px;
+    margin-left: 9px;
+    margin-top: 14px;
+}
+.cl24{
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    background-color: black;
+}
+.cl24 span{
+    margin-top: 12px;
+    margin-left: 560px;
+    color: grey;
+    font-size: 18px;
+    font-family: fantasy;
+}
